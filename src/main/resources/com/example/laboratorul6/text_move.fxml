@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+
+  <Canvas fx:id="gameCanvas" height="542.0" width="800.0" />
+    <Button fx:id="startButton" layoutX="75.0" layoutY="552.0" mnemonicParsing="false" text="Start" />
+    <Button fx:id="stopButton" layoutX="150.0" layoutY="552.0" mnemonicParsing="false" text="Stop" />
+    <Button fx:id="increaseSpeedButton" layoutX="590.0" layoutY="552.0" mnemonicParsing="false" text="+Viteza" />
+    <Button fx:id="decreaseSpeedButton" layoutX="671.0" layoutY="552.0" mnemonicParsing="false" text="-Viteza" />
+    
+</Pane>
